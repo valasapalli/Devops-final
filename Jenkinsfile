@@ -12,7 +12,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git 'https://github.com/https://github.com/valasapalli/Devops-final.git'  // Replace <your-repo> with your actual repository URL
+                git 'https://github.com/valasapalli/Devops-final.git'  // Replace <your-repo> with your actual repository URL
             }
         }
         stage('Build') {
